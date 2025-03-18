@@ -38,8 +38,10 @@ namespace MVC
         {
             String name = txt_name.Text;
             String price = txt_price.Text;
+            String quantidade = textBox2.Text;
+            String descricao = textBox1.Text;
 
-            String mensagemResposta = controller.SaveProduct(name, price);
+            String mensagemResposta = controller.SaveProduct(name, price, quantidade, descricao);
             MessageBox.Show(mensagemResposta);
 
             this.RefreshDGV();
@@ -51,6 +53,26 @@ namespace MVC
             List<Product> products = controller.GetAllProducts();
             dgv_products.DataSource = null; 
             dgv_products.DataSource = products;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

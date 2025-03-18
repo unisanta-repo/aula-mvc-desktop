@@ -11,9 +11,9 @@ namespace MVC.Controller
     {
         private ProductModel model = new ProductModel();
 
-        public string SaveProduct(String name, string price)
+        public string SaveProduct(String name, string price, string quantidade, string descricao)
         {
-            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(price))
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(price) || string.IsNullOrWhiteSpace(descricao))
             {
                 return "Nome e Preço são obrigatórios!";
             }
@@ -21,8 +21,12 @@ namespace MVC.Controller
             {
                 return "Preço Inválido!";
             }
+            if (!int.TryParse(quantidade, out int quantidadeConvert))
+            {
+                return "Quantidade inválida";
+            }
 
-            Product product = new Product(name, priceConvert);
+            Product product = new Product(name, priceConvert, quantidadeConvert, descricao);
             model.addProduct(product);
             return "Produto salvo com sucesso!";
         }

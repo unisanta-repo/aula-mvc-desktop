@@ -11,10 +11,15 @@ namespace MVC.Model
         public string Name { get; set; }
         public decimal Price { get; set; }
 
-        public Product(string name, decimal price)
+        public int Quantidade { get; set; }
+        public string Description { get; set; }
+
+        public Product(string name, decimal price, int quantidade, string descricao)
         {
             Name = name;
             Price = price;
+            Quantidade = quantidade;
+            Description = descricao;
         }
 
 

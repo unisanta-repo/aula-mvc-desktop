@@ -9,3 +9,14 @@ C:\Users\unisanta\source\repos\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.cac
 C:\Users\unisanta\source\repos\MVC\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
 C:\Users\unisanta\source\repos\MVC\MVC\obj\Debug\MVC.exe
 C:\Users\unisanta\source\repos\MVC\MVC\obj\Debug\MVC.pdb
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\bin\Debug\MVC.exe.config
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\bin\Debug\MVC.exe
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\bin\Debug\MVC.pdb
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.Properties.Resources.resources
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.Form1.resources
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.csproj.GenerateResource.cache
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.exe
+C:\Users\unisanta\Desktop\aula-mvc-desktop\MVC\obj\Debug\MVC.pdb
